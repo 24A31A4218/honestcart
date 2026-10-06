@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HonestCart — Shop with Confidence</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f7f9fc;color:#172033;line-height:1.6}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:white;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #00000010}
+.logo{font-size:25px;font-weight:800;color:#2563eb}
+nav a{margin-left:24px;text-decoration:none;color:#475569;font-weight:600}
+.hero{padding:90px 8%;text-align:center;background:linear-gradient(135deg,#eff6ff,#ffffff)}
+.badge{display:inline-block;background:#dbeafe;color:#1d4ed8;padding:7px 15px;border-radius:30px;font-weight:700;font-size:14px}
+h1{font-size:clamp(40px,7vw,68px);line-height:1.05;margin:22px auto 18px;max-width:850px}
+.hero p{max-width:700px;margin:auto;color:#64748b;font-size:19px}
+.btn{display:inline-block;margin-top:30px;padding:14px 28px;border-radius:10px;background:#2563eb;color:white;text-decoration:none;font-weight:700}
+section{padding:70px 8%;max-width:1150px;margin:auto}
+.title{text-align:center;font-size:34px;margin-bottom:15px}
+.subtitle{text-align:center;color:#64748b;max-width:700px;margin:0 auto 40px}
+.problem{background:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:white;padding:28px;border-radius:16px;box-shadow:0 8px 25px #1720330d;border:1px solid #e8edf5}
+.icon{font-size:32px;margin-bottom:12px}
+.card h3{margin-bottom:8px}
+.card p{color:#64748b}
+.score{background:#172033;color:white;border-radius:22px;padding:45px;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.score p{color:#cbd5e1}
+.circle{width:180px;height:180px;border-radius:50%;border:12px solid #60a5fa;display:flex;align-items:center;justify-content:center;margin:auto;font-size:42px;font-weight:800}
+.cta{text-align:center;background:#2563eb;color:white;max-width:none}
+.cta p{color:#dbeafe}
+footer{text-align:center;padding:30px;background:#111827;color:#cbd5e1}
+@media(max-width:700px){nav a{display:none}.score{grid-template-columns:1fr;text-align:center}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">🛒 HonestCart</div>
+  <div>
+    <a href="#problem">Problem</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <span class="badge">AI-Powered Shopping Trust</span>
+  <h1>Shop smarter. Trust the reviews. Buy with confidence.</h1>
+  <p>HonestCart uses AI to analyze product reviews, detect suspicious feedback, and help you understand what real customers are saying.</p>
+  <a class="btn" href="#features">Explore HonestCart</a>
+</header>
+
+<section id="problem" class="problem">
+  <h2 class="title">Online reviews aren't always honest.</h2>
+  <p class="subtitle">Fake, biased, paid, and misleading reviews can make choosing the right product difficult.</p>
+  <div class="grid">
+    <div class="card"><div class="icon">⚠️</div><h3>Fake Reviews</h3><p>Suspicious reviews can create a false impression of product quality.</p></div>
+    <div class="card"><div class="icon">⏳</div><h3>Too Much Information</h3><p>Reading hundreds of reviews takes time and effort.</p></div>
+    <div class="card"><div class="icon">❓</div><h3>Uncertain Decisions</h3><p>Shoppers often struggle to know which opinions are trustworthy.</p></div>
+  </div>
+</section>
+
+<section id="features">
+  <h2 class="title">Meet HonestCart</h2>
+  <p class="subtitle">A simple AI-powered solution for making more confident online purchases.</p>
+  <div class="grid">
+    <div class="card"><div class="icon">🔍</div><h3>Suspicious Review Detection</h3><p>AI analyzes review patterns and identifies potentially misleading feedback.</p></div>
+    <div class="card"><div class="icon">⭐</div><h3>Review Trust Score</h3><p>Get a simple score that helps you understand the overall trustworthiness of reviews.</p></div>
+    <div class="card"><div class="icon">📊</div><h3>Sentiment Analysis</h3><p>Understand whether customer experiences are mostly positive, neutral, or negative.</p></div>
+    <div class="card"><div class="icon">📝</div><h3>Smart Summaries</h3><p>Quickly discover the most important points from genuine customer feedback.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="score">
+    <div>
+      <h2>Understand reviews at a glance.</h2>
+      <p>Instead of spending hours comparing reviews, HonestCart turns complex customer feedback into simple, useful insights.</p>
+      <a class="btn" href="#contact">Get Started</a>
+    </div>
+    <div class="circle">92%</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="title">Why HonestCart?</h2>
+  <p class="subtitle">We help shoppers save time, reduce uncertainty, and make informed decisions using AI-powered review intelligence.</p>
+  <div class="grid">
+    <div class="card"><h3>⏱ Save Time</h3><p>Get the key insights without reading every review.</p></div>
+    <div class="card"><h3>🛡 Reduce Risk</h3><p>Identify suspicious feedback before making a purchase.</p></div>
+    <div class="card"><h3>💡 Shop Confidently</h3><p>Make purchasing decisions based on clearer customer insights.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <h2 class="title">Ready to shop with confidence?</h2>
+  <p>Discover a smarter way to understand online reviews with HonestCart.</p>
+  <a class="btn" style="background:white;color:#2563eb" href="mailto:honestcart.team@gmail.com">Contact HonestCart</a>
+</section>
+
+<footer>
+  © 2026 HonestCart • AI-powered review intelligence
+</footer>
+
+</body>
+</html>
